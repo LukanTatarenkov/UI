@@ -449,16 +449,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Forward:
-    primary: 0
+    primary: 119
     alternate: 0
   Backward:
-    primary: 0
+    primary: 115
     alternate: 0
   Right:
-    primary: 0
+    primary: 100
     alternate: 0
   Left:
-    primary: 0
+    primary: 97
     alternate: 0
   Sprint:
     primary: 0
@@ -475,7 +475,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2829778769c5efd4eb5bc815095f6b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _runspeed: 6
+  _runSpeed: 6
+  _sprintSpeed: 8
+  _rotationSharpness: 10
+  _moveSharpness: 10
+--- !u!54 &1766881573
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766881567}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 80
+  m_CollisionDetection: 0
+--- !u!136 &1766881574
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766881567}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.25
+  m_Height: 1.8
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!1 &1884558917
 GameObject:
   m_ObjectHideFlags: 0
