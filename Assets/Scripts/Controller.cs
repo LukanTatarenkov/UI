@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class Controller : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	public CharacterMovement characterMovement;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	public void FixedUpdate()
+	{
+		characterMovement.MoveUpdate();
+	}
 }
