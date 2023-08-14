@@ -329,7 +329,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 630759933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 5.85, y: 2.95, z: -12.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -414,7 +414,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1766881567}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ccf7f3495916dd34d8d02e2dd2386bc6, type: 3}
   m_Name: 
@@ -422,13 +422,13 @@ MonoBehaviour:
   _camera: {fileID: 630759935}
   _followTransform: {fileID: 474297236}
   _framing: {x: 0, y: 0}
-  _zoomSpeed: 10
+  _zoomSpeed: 5
   _defaultDistance: 5
   _minDistance: 0
   _maxDistance: 10
-  _invertX: 1
-  _invertY: 0
-  _rotationSharpnes: 25
+  _invertX: 0
+  _invertY: 1
+  _rotationSharpnes: 50
   _deafultVerticalAngle: 20
   _minVerticalAngle: -90
   _maxVerticalAngle: 90
@@ -470,7 +470,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1766881567}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2829778769c5efd4eb5bc815095f6b83, type: 3}
   m_Name: 
